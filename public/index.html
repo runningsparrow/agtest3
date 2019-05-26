@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>angularjs测试</title>
+</head>
+<body>
+  <div ng-app="myApp">
+
+    <!-- ng-init初始化测试 -->
+    <div ng-init="person={'name':'AJack','gender':'男'}"></div>
+    <p>姓名:{{person.name}}</p>
+    <p>性别:{{person.gender}}</p>
+</div>
+<div ng-app="myApp2" id="myApp2">
+
+    <!-- ng-init初始化测试 -->
+    <div ng-init="person={'name':'Alice','gender':'女'}"></div>
+    <p>姓名:{{person.name}}</p>
+    <p>性别:{{person.gender}}</p>
+
+</div>
+<div ng-app="flowapp" id="flowapp">
+
+    <!-- ng-init初始化测试 -->
+    <div ng-init="person={'name':'Mary','gender':'女'}"></div>
+    <p>姓名:{{person.name}}</p>
+    <p>性别:{{person.gender}}</p>
+
+</div>
+
+
+<script src="./libs/angular-1.7.8/angular.js"></script>
+<script src="./libs/angular-1.7.8/angular-route.js"></script>
+<script src="./javascripts/index.js"></script>
+<script src="./javascripts/controllers/testcontroller1.js"></script>
+</body>
+</html>
