@@ -58,7 +58,7 @@ flowapp.controller('test1Ctrl',['$rootScope', '$scope', '$http', '$timeout','$lo
 
 
 
-// angular.element(document).ready(function() {
-//     angular.bootstrap(document.getElementById('myApp2'),['myApp2']);
-//     angular.bootstrap(document.getElementById('flowapp'),['flowapp']);
-// });
+angular.element(document).ready(function() {
+    angular.bootstrap(document.getElementById('myApp2'),['myApp2']);
+    angular.bootstrap(document.getElementById('flowapp'),['flowapp']);
+});
