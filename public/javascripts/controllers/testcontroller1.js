@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('flowapp')
-    .controller('test2Ctrl',['$rootScope', '$scope', '$translate', '$http', '$timeout','$location', '$modal',
-    function($rootScope,$scope,$translate,$http,$timeout,$location,$modal){
+angular.module('myApp')
+    .controller('test2Ctrl',['$rootScope', '$scope', '$http', '$timeout','$location',
+    function($rootScope,$scope,$http,$timeout,$location,){
         console.log("test2ctrl")
     }
 ])
